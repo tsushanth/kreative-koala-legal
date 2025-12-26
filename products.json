@@ -1,0 +1,15 @@
+{
+  "products": [
+    { "name": "Audexa", "icon": "A" },
+    { "name": "ShortMail", "icon": "S" },
+    { "name": "Scribe AI", "icon": "S" },
+    { "name": "Riddle Verse", "icon": "R" },
+    { "name": "Sheet Buddy", "icon": "S" },
+    { "name": "Email Buddy", "icon": "E" },
+    { "name": "Meet Buddy", "icon": "M" },
+    { "name": "Calendar Buddy", "icon": "C" },
+    { "name": "Puzzle Verse", "icon": "P" },
+    { "name": "Puzzle Play", "icon": "P" },
+    { "name": "Gmail Inbox Cleaner", "icon": "G" }
+  ]
+}

@@ -10,6 +10,7 @@
     { "name": "Calendar Buddy", "icon": "C" },
     { "name": "Puzzle Verse", "icon": "P" },
     { "name": "Puzzle Play", "icon": "P" },
-    { "name": "Gmail Inbox Cleaner", "icon": "G" }
+    { "name": "Gmail Inbox Cleaner", "icon": "G" },
+    { "name": "SecureVox", "icon": "S" }
   ]
 }

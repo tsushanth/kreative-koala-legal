@@ -11,6 +11,7 @@
     { "name": "Puzzle Verse", "icon": "P" },
     { "name": "Puzzle Play", "icon": "P" },
     { "name": "Gmail Inbox Cleaner", "icon": "G" },
-    { "name": "SecureVox", "icon": "S" }
+    { "name": "SecureVox", "icon": "S" },
+    { "name": "Meeting Mind", "icon": "M" }
   ]
 }

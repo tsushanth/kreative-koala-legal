@@ -1,17 +1,24 @@
 {
   "products": [
-    { "name": "Audexa", "icon": "A" },
-    { "name": "ShortMail", "icon": "S" },
-    { "name": "Scribe AI", "icon": "S" },
-    { "name": "Riddle Verse", "icon": "R" },
-    { "name": "Sheet Buddy", "icon": "S" },
-    { "name": "Email Buddy", "icon": "E" },
-    { "name": "Meet Buddy", "icon": "M" },
-    { "name": "Calendar Buddy", "icon": "C" },
-    { "name": "Puzzle Verse", "icon": "P" },
-    { "name": "Puzzle Play", "icon": "P" },
-    { "name": "Gmail Inbox Cleaner", "icon": "G" },
-    { "name": "SecureVox", "icon": "S" },
-    { "name": "Meeting Mind", "icon": "M" }
-  ]
+    { "name": "Audexa", "icon": "A", "url": "https://audexa.app" },
+    { "name": "ShortMail", "icon": "S", "url": null },
+    { "name": "Scribe AI", "icon": "S", "url": "https://scribeai.online" },
+    { "name": "Riddle Verse", "icon": "R", "url": "https://puzzlerverseai.com" },
+    { "name": "Sheet Buddy", "icon": "S", "url": null, "suite": "BuddySuite" },
+    { "name": "Email Buddy", "icon": "E", "url": null, "suite": "BuddySuite" },
+    { "name": "Meet Buddy", "icon": "M", "url": null, "suite": "BuddySuite" },
+    { "name": "Calendar Buddy", "icon": "C", "url": null, "suite": "BuddySuite" },
+    { "name": "Puzzle Verse", "icon": "P", "url": null },
+    { "name": "Puzzle Play", "icon": "P", "url": null },
+    { "name": "Gmail Inbox Cleaner", "icon": "G", "url": null },
+    { "name": "SecureVox", "icon": "S", "url": null },
+    { "name": "Meeting Mind", "icon": "M", "url": "https://meetingmind.org", "suite": "BuddySuite" }
+  ],
+  "suites": {
+    "BuddySuite": {
+      "name": "Buddy Suite",
+      "description": "Our Buddy Suite products help users seamlessly interact with Google services like Gmail, Google Calendar, and Google Sheets, making everyday tasks simpler and more efficient.",
+      "products": ["Sheet Buddy", "Email Buddy", "Meet Buddy", "Calendar Buddy", "Meeting Mind"]
+    }
+  }
 }

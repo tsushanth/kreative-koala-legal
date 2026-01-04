@@ -6,12 +6,23 @@ function loadProducts() {
             // Load product cards on About page
             const productsGrid = document.getElementById('products-grid');
             if (productsGrid) {
-                productsGrid.innerHTML = data.products.map(product => `
-                    <div class="product-card">
+                productsGrid.innerHTML = data.products.map(product => {
+                    const cardContent = `
                         <div class="product-icon">${product.icon}</div>
                         <h3>${product.name}</h3>
-                    </div>
-                `).join('');
+                        ${product.suite ? '<span class="suite-badge">Buddy Suite</span>' : ''}
+                    `;
+                    if (product.url) {
+                        return `<a href="${product.url}" target="_blank" rel="noopener noreferrer" class="product-card product-card-link">${cardContent}</a>`;
+                    }
+                    return `<div class="product-card">${cardContent}</div>`;
+                }).join('');
+            }
+
+            // Load Buddy Suite info on About page
+            const buddySuiteInfo = document.getElementById('buddy-suite-info');
+            if (buddySuiteInfo && data.suites && data.suites.BuddySuite) {
+                buddySuiteInfo.innerHTML = `<p>${data.suites.BuddySuite.description}</p>`;
             }
 
             // Load product list text on Privacy Policy page

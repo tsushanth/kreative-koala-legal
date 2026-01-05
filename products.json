@@ -12,7 +12,8 @@
     { "name": "Puzzle Play", "icon": "P", "url": null },
     { "name": "Gmail Inbox Cleaner", "icon": "G", "url": null },
     { "name": "SecureVox", "icon": "S", "url": null },
-    { "name": "Meeting Mind", "icon": "M", "url": "https://meetingmind.org", "suite": "BuddySuite" }
+    { "name": "Meeting Mind", "icon": "M", "url": "https://meetingmind.org", "suite": "BuddySuite" },
+    { "name": "SayIt AI", "icon": "S", "url": null }
   ],
   "suites": {
     "BuddySuite": {

@@ -1,7 +1,7 @@
 {
   "products": [
     { "name": "Audexa", "icon": "A", "url": "https://audexa.app" },
-    { "name": "ShortMail", "icon": "S", "url": null },
+    { "name": "TidyMail", "icon": "T", "url": "https://tidymail.dev" },
     { "name": "Scribe AI", "icon": "S", "url": "https://scribeai.online" },
     { "name": "Riddle Verse", "icon": "R", "url": "https://puzzlerverseai.com" },
     { "name": "Sheet Buddy", "icon": "S", "url": null, "suite": "BuddySuite" },

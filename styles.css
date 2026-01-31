@@ -858,6 +858,228 @@ footer {
     }
 }
 
+/* Support Page */
+.support-content {
+    padding: 3rem 0 4rem;
+}
+
+.support-intro {
+    max-width: 800px;
+    margin: 0 auto 3rem;
+    text-align: center;
+}
+
+.support-intro h2 {
+    font-size: 2rem;
+    color: var(--secondary-color);
+    margin-bottom: 1rem;
+}
+
+.support-intro p {
+    font-size: 1.125rem;
+    color: var(--text-light);
+}
+
+.faq-section {
+    max-width: 900px;
+    margin: 0 auto 4rem;
+}
+
+.faq-section > h2 {
+    font-size: 1.75rem;
+    color: var(--secondary-color);
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.faq-item {
+    background: var(--background);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-lg);
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+
+.faq-item h3 {
+    font-size: 1.25rem;
+    color: var(--primary-color);
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 2px solid var(--border-color);
+}
+
+.faq-item h4 {
+    font-size: 1.0625rem;
+    color: var(--secondary-color);
+    margin: 1.5rem 0 0.75rem;
+}
+
+.faq-item h4:first-of-type {
+    margin-top: 0;
+}
+
+.faq-item p {
+    color: var(--text-color);
+    margin-bottom: 1rem;
+    line-height: 1.7;
+}
+
+.faq-item ul, .faq-item ol {
+    margin: 1rem 0;
+    padding-left: 1.5rem;
+    list-style: initial;
+}
+
+.faq-item li {
+    color: var(--text-color);
+    margin-bottom: 0.5rem;
+    line-height: 1.7;
+}
+
+.faq-item a {
+    color: var(--primary-color);
+    font-weight: 500;
+}
+
+.contact-support-section {
+    max-width: 900px;
+    margin: 0 auto 3rem;
+    text-align: center;
+}
+
+.contact-support-section h2 {
+    font-size: 1.75rem;
+    color: var(--secondary-color);
+    margin-bottom: 1rem;
+}
+
+.contact-support-section > p {
+    color: var(--text-light);
+    margin-bottom: 2rem;
+}
+
+.support-contact-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.support-contact-card {
+    background: var(--background);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-lg);
+    padding: 2rem;
+    text-align: center;
+    transition: var(--transition);
+}
+
+.support-contact-card:hover {
+    border-color: var(--primary-light);
+    box-shadow: var(--shadow-md);
+    transform: translateY(-2px);
+}
+
+.support-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 64px;
+    height: 64px;
+    margin: 0 auto 1rem;
+    background: linear-gradient(135deg, var(--primary-light), var(--primary-color));
+    color: white;
+    border-radius: var(--radius-md);
+}
+
+.support-contact-card h3 {
+    font-size: 1.125rem;
+    color: var(--secondary-color);
+    margin-bottom: 0.5rem;
+}
+
+.support-contact-card p {
+    color: var(--text-color);
+    margin: 0.5rem 0;
+}
+
+.support-contact-card a {
+    color: var(--primary-color);
+    font-weight: 500;
+}
+
+.support-hours {
+    font-size: 0.875rem;
+    color: var(--text-light);
+    margin-top: 0.5rem;
+}
+
+.legal-links-section {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.legal-links-section h2 {
+    font-size: 1.75rem;
+    color: var(--secondary-color);
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.legal-links-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+}
+
+.legal-link-card {
+    background: var(--background-alt);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-lg);
+    padding: 1.5rem;
+    transition: var(--transition);
+    text-decoration: none;
+    display: block;
+}
+
+.legal-link-card:hover {
+    border-color: var(--primary-color);
+    box-shadow: var(--shadow-md);
+    transform: translateY(-2px);
+}
+
+.legal-link-card h3 {
+    font-size: 1.125rem;
+    color: var(--secondary-color);
+    margin-bottom: 0.5rem;
+}
+
+.legal-link-card p {
+    color: var(--text-light);
+    margin: 0;
+    font-size: 0.9375rem;
+}
+
+/* Support Page Mobile */
+@media (max-width: 768px) {
+    .support-intro {
+        margin-bottom: 2rem;
+    }
+
+    .faq-item {
+        padding: 1.5rem;
+    }
+
+    .support-contact-grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+
+    .legal-links-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
 /* Print Styles */
 @media print {
     .navbar,

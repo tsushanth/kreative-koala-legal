@@ -14,13 +14,20 @@
     { "name": "SecureVox", "icon": "S", "url": null },
     { "name": "Meeting Mind", "icon": "M", "url": "https://meetingmind.org", "suite": "BuddySuite" },
     { "name": "SayIt AI", "icon": "S", "url": null },
-    { "name": "DocuScanAI", "icon": "D", "url": null, "platform": "iOS" }
+    { "name": "DocuScan AI", "icon": "D", "url": null, "platform": "iOS", "suite": "DocumentSuite" },
+    { "name": "InvoiceFlow Pro", "icon": "I", "url": null, "platform": "iOS", "suite": "DocumentSuite" },
+    { "name": "All-in-one PDF", "icon": "P", "url": null, "platform": "iOS", "suite": "DocumentSuite" }
   ],
   "suites": {
     "BuddySuite": {
       "name": "Buddy Suite",
       "description": "Our Buddy Suite products help users seamlessly interact with Google services like Gmail, Google Calendar, and Google Sheets, making everyday tasks simpler and more efficient.",
       "products": ["Sheet Buddy", "Email Buddy", "Meet Buddy", "Calendar Buddy", "Meeting Mind"]
+    },
+    "DocumentSuite": {
+      "name": "Document Suite",
+      "description": "Our Document Suite provides powerful iOS apps for document scanning, PDF management, and invoice creation with AI-powered features.",
+      "products": ["DocuScan AI", "InvoiceFlow Pro", "All-in-one PDF"]
     }
   }
 }

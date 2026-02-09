@@ -17,7 +17,8 @@
     { "name": "DocuScan AI", "icon": "D", "url": null, "platform": "iOS", "suite": "DocumentSuite" },
     { "name": "InvoiceFlow Pro", "icon": "I", "url": null, "platform": "iOS", "suite": "DocumentSuite" },
     { "name": "All-in-one PDF", "icon": "P", "url": null, "platform": "iOS", "suite": "DocumentSuite" },
-    { "name": "CodeReader Pro", "icon": "C", "url": null, "platform": "iOS" }
+    { "name": "CodeReader Pro", "icon": "C", "url": null, "platform": "iOS" },
+    { "name": "ClipFlow Pro", "icon": "C", "url": null, "platform": "macOS" }
   ],
   "suites": {
     "BuddySuite": {

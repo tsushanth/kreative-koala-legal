@@ -18,7 +18,8 @@
     { "name": "InvoiceFlow Pro", "icon": "I", "url": null, "platform": "iOS", "suite": "DocumentSuite" },
     { "name": "All-in-one PDF", "icon": "P", "url": null, "platform": "iOS", "suite": "DocumentSuite" },
     { "name": "CodeReader Pro", "icon": "C", "url": null, "platform": "iOS" },
-    { "name": "ClipFlow Pro", "icon": "C", "url": null, "platform": "macOS" }
+    { "name": "ClipFlow Pro", "icon": "C", "url": null, "platform": "macOS" },
+    { "name": "Cleanup: One Tap", "icon": "C", "url": null, "platform": "iOS" }
   ],
   "suites": {
     "BuddySuite": {

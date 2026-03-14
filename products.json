@@ -27,7 +27,9 @@
     { "name": "PDFGenius", "icon": "P", "url": null, "platform": "iOS" },
     { "name": "VibeBuild", "icon": "V", "url": null },
     { "name": "Serene Sleep Sounds", "icon": "S", "url": null, "platform": "iOS" },
-    { "name": "Pixora", "icon": "P", "url": null, "platform": "iOS" }
+    { "name": "Pixora", "icon": "P", "url": null, "platform": "iOS" },
+    { "name": "FastingFusion", "icon": "F", "url": null, "platform": "iOS" },
+    { "name": "EasyClaw", "icon": "E", "url": null, "platform": "iOS" }
   ],
   "suites": {
     "BuddySuite": {

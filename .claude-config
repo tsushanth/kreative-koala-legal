@@ -1,0 +1,13 @@
+# Claude Code Configuration
+# This file documents environment-specific paths and configurations
+
+# CLI Tool Paths (macOS Homebrew)
+NPM_PATH=/opt/homebrew/bin/npm
+NODE_PATH=/opt/homebrew/bin/node
+GCLOUD_PATH=/opt/homebrew/bin/gcloud
+SUPABASE_PATH=/opt/homebrew/bin/supabase
+
+# Common Commands
+# Build: /opt/homebrew/bin/npm run build
+# Install: /opt/homebrew/bin/npm install
+# Deploy to Cloud Run: /opt/homebrew/bin/gcloud run deploy <service-name> --source . --region us-central1

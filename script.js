@@ -3,10 +3,39 @@ function loadProducts() {
     fetch('products.json')
         .then(response => response.json())
         .then(data => {
-            // Load product cards on About page
+            // Load featured apps (top-tier) on About page
+            const featuredGrid = document.getElementById('featured-grid');
+            if (featuredGrid && Array.isArray(data.featured)) {
+                featuredGrid.innerHTML = data.featured.map(app => {
+                    const platforms = (app.platforms || []).map(p =>
+                        `<span class="platform-badge">${p}</span>`
+                    ).join('');
+                    const cardContent = `
+                        <div class="featured-card-header">
+                            <div class="product-icon featured-icon">${app.icon}</div>
+                            <div class="featured-card-titles">
+                                <h3>${app.name}</h3>
+                                <p class="featured-tagline">${app.tagline || ''}</p>
+                            </div>
+                        </div>
+                        <p class="featured-description">${app.description || ''}</p>
+                        <div class="featured-card-footer">
+                            <div class="platforms">${platforms}</div>
+                            ${app.url ? `<span class="featured-link-arrow">Visit →</span>` : ''}
+                        </div>
+                    `;
+                    if (app.url) {
+                        return `<a href="${app.url}" target="_blank" rel="noopener noreferrer" class="featured-card featured-card-link">${cardContent}</a>`;
+                    }
+                    return `<div class="featured-card">${cardContent}</div>`;
+                }).join('');
+            }
+
+            // Load product cards on About page (filter out featured to avoid duplication)
+            const featuredNames = new Set((data.featured || []).map(f => f.name));
             const productsGrid = document.getElementById('products-grid');
             if (productsGrid) {
-                productsGrid.innerHTML = data.products.map(product => {
+                productsGrid.innerHTML = data.products.filter(p => !featuredNames.has(p.name)).map(product => {
                     const cardContent = `
                         <div class="product-icon">${product.icon}</div>
                         <h3>${product.name}</h3>

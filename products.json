@@ -1,4 +1,46 @@
 {
+  "featured": [
+    {
+      "name": "Audexa",
+      "icon": "A",
+      "url": "https://audexa.app",
+      "tagline": "AI personalized radio you can call into",
+      "description": "A 24/7 AI-generated radio station that adapts to your interests across 33 topics, 18 formats, and 10 languages. Call +1-833-398-1230 to request a topic out loud — it shows up in your next stream.",
+      "platforms": ["iOS", "Android"]
+    },
+    {
+      "name": "ScribeAI",
+      "icon": "S",
+      "url": "https://scribeai.online",
+      "tagline": "Summarize voice, PDF, video, or calls — no account needed",
+      "description": "Voice-to-text, transcription, and AI summaries. Paste a URL, upload a PDF, scan a document, or record audio — get a clean summary. Anonymous sign-in means you can use the whole app without making an account.",
+      "platforms": ["iOS", "Android"]
+    },
+    {
+      "name": "MeetingMind",
+      "icon": "M",
+      "url": "https://meetingmind.org",
+      "tagline": "Meeting transcription that handles long calls on the go",
+      "description": "Meeting transcription and summarization with in-app phone-call recording. Built to handle hour-long uploads reliably on cellular — no more lost recordings mid-transfer.",
+      "platforms": ["iOS", "Android"]
+    },
+    {
+      "name": "VibeBuild",
+      "icon": "V",
+      "url": "https://vibebuild.cc",
+      "tagline": "Build a real Android APK by describing it — from your phone",
+      "description": "AI mobile app builder. Describe the app you want, get a working Android APK back. No laptop, no IDE — builds run on a remote worker and land on your device.",
+      "platforms": ["iOS", "Android"]
+    },
+    {
+      "name": "Sketchly",
+      "icon": "S",
+      "url": "https://apps.apple.com/app/id6760572052",
+      "tagline": "AI drawing tutor for kids",
+      "description": "Guided drawing lessons for kids. The AI grades the kid's sketch and gives specific, encouraging feedback. Parent mode tracks every lesson and saved drawing.",
+      "platforms": ["iOS"]
+    }
+  ],
   "products": [
     { "name": "Audexa", "icon": "A", "url": "https://audexa.app" },
     { "name": "TidyMail", "icon": "T", "url": "https://tidymail.dev" },
@@ -25,12 +67,12 @@
     { "name": "ReadAloud AI", "icon": "R", "url": null, "platform": "iOS" },
     { "name": "ClearVoice Recorder", "icon": "C", "url": null, "platform": "iOS" },
     { "name": "PDFGenius", "icon": "P", "url": null, "platform": "iOS" },
-    { "name": "VibeBuild", "icon": "V", "url": null },
+    { "name": "VibeBuild", "icon": "V", "url": "https://vibebuild.cc" },
     { "name": "Serene Sleep Sounds", "icon": "S", "url": null, "platform": "iOS" },
     { "name": "Pixora", "icon": "P", "url": null, "platform": "iOS" },
     { "name": "FastingFusion", "icon": "F", "url": null, "platform": "iOS" },
     { "name": "EasyClaw", "icon": "E", "url": null, "platform": "iOS" },
-    { "name": "Sketchly", "icon": "S", "url": null, "platform": "iOS" },
+    { "name": "Sketchly", "icon": "S", "url": "https://apps.apple.com/app/id6760572052", "platform": "iOS" },
     { "name": "HabitCraft", "icon": "H", "url": null, "platform": "iOS" },
     { "name": "FocusBro", "icon": "F", "url": null, "platform": "iOS" },
     { "name": "LifeCanvas Journal", "icon": "L", "url": null, "platform": "iOS" },

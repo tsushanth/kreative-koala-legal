@@ -5,32 +5,44 @@
       "icon": "A",
       "url": "https://audexa.app",
       "tagline": "AI personalized radio you can call into",
-      "description": "A 24/7 AI-generated radio station that adapts to your interests across 33 topics, 18 formats, and 10 languages. Call +1-833-398-1230 to request a topic out loud — it shows up in your next stream.",
-      "platforms": ["iOS", "Android"]
+      "description": "A 24/7 AI-generated radio station that adapts to your interests across 33 topics, 18 formats, and 10 languages. Call +1-833-398-1230 to request a topic out loud \u2014 it shows up in your next stream.",
+      "platforms": [
+        "iOS",
+        "Android"
+      ]
     },
     {
       "name": "ScribeAI",
       "icon": "S",
       "url": "https://scribeai.online",
-      "tagline": "Summarize voice, PDF, video, or calls — no account needed",
-      "description": "Voice-to-text, transcription, and AI summaries. Paste a URL, upload a PDF, scan a document, or record audio — get a clean summary. Anonymous sign-in means you can use the whole app without making an account.",
-      "platforms": ["iOS", "Android"]
+      "tagline": "Summarize voice, PDF, video, or calls \u2014 no account needed",
+      "description": "Voice-to-text, transcription, and AI summaries. Paste a URL, upload a PDF, scan a document, or record audio \u2014 get a clean summary. Anonymous sign-in means you can use the whole app without making an account.",
+      "platforms": [
+        "iOS",
+        "Android"
+      ]
     },
     {
       "name": "MeetingMind",
       "icon": "M",
       "url": "https://meetingmind.org",
       "tagline": "Meeting transcription that handles long calls on the go",
-      "description": "Meeting transcription and summarization with in-app phone-call recording. Built to handle hour-long uploads reliably on cellular — no more lost recordings mid-transfer.",
-      "platforms": ["iOS", "Android"]
+      "description": "Meeting transcription and summarization with in-app phone-call recording. Built to handle hour-long uploads reliably on cellular \u2014 no more lost recordings mid-transfer.",
+      "platforms": [
+        "iOS",
+        "Android"
+      ]
     },
     {
       "name": "VibeBuild",
       "icon": "V",
       "url": "https://vibebuild.cc",
-      "tagline": "Build a real Android APK by describing it — from your phone",
-      "description": "AI mobile app builder. Describe the app you want, get a working Android APK back. No laptop, no IDE — builds run on a remote worker and land on your device.",
-      "platforms": ["iOS", "Android"]
+      "tagline": "Build a real Android APK by describing it \u2014 from your phone",
+      "description": "AI mobile app builder. Describe the app you want, get a working Android APK back. No laptop, no IDE \u2014 builds run on a remote worker and land on your device.",
+      "platforms": [
+        "iOS",
+        "Android"
+      ]
     },
     {
       "name": "Sketchly",
@@ -38,111 +50,556 @@
       "url": "https://apps.apple.com/app/id6760572052",
       "tagline": "AI drawing tutor for kids",
       "description": "Guided drawing lessons for kids. The AI grades the kid's sketch and gives specific, encouraging feedback. Parent mode tracks every lesson and saved drawing.",
-      "platforms": ["iOS"]
+      "platforms": [
+        "iOS"
+      ]
     }
   ],
   "products": [
-    { "name": "Audexa", "icon": "A", "url": "https://audexa.app" },
-    { "name": "TidyMail", "icon": "T", "url": "https://tidymail.dev" },
-    { "name": "Scribe AI", "icon": "S", "url": "https://scribeai.online" },
-    { "name": "Riddle Verse", "icon": "R", "url": "https://puzzlerverseai.com" },
-    { "name": "Sheet Buddy", "icon": "S", "url": null, "suite": "BuddySuite" },
-    { "name": "Email Buddy", "icon": "E", "url": null, "suite": "BuddySuite" },
-    { "name": "Meet Buddy", "icon": "M", "url": null, "suite": "BuddySuite" },
-    { "name": "Calendar Buddy", "icon": "C", "url": null, "suite": "BuddySuite" },
-    { "name": "Puzzle Verse", "icon": "P", "url": null },
-    { "name": "Puzzle Play", "icon": "P", "url": null },
-    { "name": "Gmail Inbox Cleaner", "icon": "G", "url": null },
-    { "name": "SecureVox", "icon": "S", "url": null },
-    { "name": "Meeting Mind", "icon": "M", "url": "https://meetingmind.org", "suite": "BuddySuite" },
-    { "name": "SayIt AI", "icon": "S", "url": null },
-    { "name": "DocuScan AI", "icon": "D", "url": null, "platform": "iOS", "suite": "DocumentSuite" },
-    { "name": "InvoiceFlow Pro", "icon": "I", "url": null, "platform": "iOS", "suite": "DocumentSuite" },
-    { "name": "All-in-one PDF", "icon": "P", "url": null, "platform": "iOS", "suite": "DocumentSuite" },
-    { "name": "CodeReader Pro", "icon": "C", "url": null, "platform": "iOS" },
-    { "name": "ClipFlow Pro", "icon": "C", "url": null, "platform": "macOS" },
-    { "name": "Cleanup: One Tap", "icon": "C", "url": null, "platform": "iOS" },
-    { "name": "CycleWise", "icon": "C", "url": null, "platform": "iOS" },
-    { "name": "ReadAloud AI", "icon": "R", "url": null, "platform": "iOS" },
-    { "name": "ClearVoice Recorder", "icon": "C", "url": null, "platform": "iOS" },
-    { "name": "PDFGenius", "icon": "P", "url": null, "platform": "iOS" },
-    { "name": "VibeBuild", "icon": "V", "url": "https://vibebuild.cc" },
-    { "name": "Serene Sleep Sounds", "icon": "S", "url": null, "platform": "iOS" },
-    { "name": "Pixora", "icon": "P", "url": null, "platform": "iOS" },
-    { "name": "FastingFusion", "icon": "F", "url": null, "platform": "iOS" },
-    { "name": "EasyClaw", "icon": "E", "url": null, "platform": "iOS" },
-    { "name": "Sketchly", "icon": "S", "url": "https://apps.apple.com/app/id6760572052", "platform": "iOS" },
-    { "name": "HabitCraft", "icon": "H", "url": null, "platform": "iOS" },
-    { "name": "FocusBro", "icon": "F", "url": null, "platform": "iOS" },
-    { "name": "LifeCanvas Journal", "icon": "L", "url": null, "platform": "iOS" },
-    { "name": "StillnessHub", "icon": "S", "url": null, "platform": "iOS" },
-    { "name": "SmartSpace", "icon": "S", "url": null, "platform": "iOS" },
-    { "name": "SnapDiet Pro", "icon": "S", "url": null, "platform": "iOS" },
-    { "name": "Arachnid Cards", "icon": "A", "url": null, "platform": "iOS" },
-    { "name": "CardMaster Solitaire", "icon": "C", "url": null, "platform": "iOS" },
-    { "name": "ClaimVault", "icon": "C", "url": null, "platform": "iOS" },
-    { "name": "Cube Crush Odyssey", "icon": "C", "url": null, "platform": "iOS" },
-    { "name": "ClearDebt", "icon": "C", "url": null, "platform": "iOS" },
-    { "name": "DialDeck", "icon": "D", "url": null, "platform": "iOS" },
-    { "name": "Event Timer Pro", "icon": "E", "url": null, "platform": "iOS" },
-    { "name": "Faithful Reflections", "icon": "F", "url": null, "platform": "iOS" },
-    { "name": "FastingPulse", "icon": "F", "url": null, "platform": "iOS" },
-    { "name": "FinanceGuard", "icon": "F", "url": null, "platform": "iOS" },
-    { "name": "FinCalc Pro", "icon": "F", "url": null, "platform": "iOS" },
-    { "name": "FirstPass EMT", "icon": "F", "url": null, "platform": "iOS" },
-    { "name": "FiscalPulse", "icon": "F", "url": null, "platform": "iOS" },
-    { "name": "FitPulse", "icon": "F", "url": null, "platform": "iOS" },
-    { "name": "GlycoFlow", "icon": "G", "url": null, "platform": "iOS" },
-    { "name": "HormoSync", "icon": "H", "url": null, "platform": "iOS" },
-    { "name": "Hydration Hero", "icon": "H", "url": null, "platform": "iOS" },
-    { "name": "LaneReady", "icon": "L", "url": null, "platform": "iOS" },
-    { "name": "Learnly", "icon": "L", "url": null, "platform": "iOS" },
-    { "name": "Ledger", "icon": "L", "url": null, "platform": "iOS" },
-    { "name": "LexiPro", "icon": "L", "url": null, "platform": "iOS" },
-    { "name": "Life Chronicle", "icon": "L", "url": null, "platform": "iOS" },
-    { "name": "Lullaby Haven", "icon": "L", "url": null, "platform": "iOS" },
-    { "name": "MathGraph Pro", "icon": "M", "url": null, "platform": "iOS" },
-    { "name": "Mindful Journal Studio", "icon": "M", "url": null, "platform": "iOS" },
-    { "name": "MoodSpark", "icon": "M", "url": null, "platform": "iOS" },
-    { "name": "PelviFit", "icon": "P", "url": null, "platform": "iOS" },
-    { "name": "PixelPalette Kids", "icon": "P", "url": null, "platform": "iOS" },
-    { "name": "QRAI Pro", "icon": "Q", "url": null, "platform": "iOS" },
-    { "name": "RhythmIQ", "icon": "R", "url": null, "platform": "iOS" },
-    { "name": "Rhythm Maestro", "icon": "R", "url": null, "platform": "iOS" },
-    { "name": "Routine Revolution", "icon": "R", "url": null, "platform": "iOS" },
-    { "name": "ScanMaster Pro", "icon": "S", "url": null, "platform": "iOS" },
-    { "name": "Serenity Scribbles", "icon": "S", "url": null, "platform": "iOS" },
-    { "name": "Simple Meditation Timer", "icon": "S", "url": null, "platform": "iOS" },
-    { "name": "SlumberGuard", "icon": "S", "url": null, "platform": "iOS" },
-    { "name": "SnoreSense", "icon": "S", "url": null, "platform": "iOS" },
-    { "name": "SpellGuard", "icon": "S", "url": null, "platform": "iOS" },
-    { "name": "SwiftFax", "icon": "S", "url": null, "platform": "iOS" },
-    { "name": "TLC Exam Ace", "icon": "T", "url": null, "platform": "iOS" },
-    { "name": "TranquilMind", "icon": "T", "url": null, "platform": "iOS" },
-    { "name": "Resource Rush Tycoon", "icon": "R", "url": null, "platform": "iOS" },
-    { "name": "Lexicon Quests", "icon": "L", "url": null, "platform": "iOS" },
-    { "name": "TaskMaster", "icon": "T", "url": null, "platform": "iOS" },
-    { "name": "TaskCanvas", "icon": "T", "url": null, "platform": "iOS" },
-    { "name": "TuneGenius", "icon": "T", "url": null, "platform": "iOS" },
-    { "name": "VetPlan", "icon": "V", "url": null, "platform": "iOS" },
-    { "name": "VitalTrace", "icon": "V", "url": null, "platform": "iOS" },
-    { "name": "ZenPet", "icon": "Z", "url": null, "platform": "iOS" },
-    { "name": "Sudoku Challenge", "icon": "S", "url": null, "platform": "iOS" },
-    { "name": "SudokuZen", "icon": "S", "url": null, "platform": "iOS" },
-    { "name": "Calorie Craft", "icon": "C", "url": null, "platform": "iOS" },
-    { "name": "ExpenseWhiz", "icon": "E", "url": null, "platform": "iOS" },
-    { "name": "CalcMaster Pro", "icon": "C", "url": null, "platform": "iOS" }
+    {
+      "name": "Audexa",
+      "icon": "A",
+      "url": "https://audexa.app"
+    },
+    {
+      "name": "TidyMail",
+      "icon": "T",
+      "url": "https://tidymail.dev"
+    },
+    {
+      "name": "Scribe AI",
+      "icon": "S",
+      "url": "https://scribeai.online"
+    },
+    {
+      "name": "Riddle Verse",
+      "icon": "R",
+      "url": "https://puzzlerverseai.com"
+    },
+    {
+      "name": "Sheet Buddy",
+      "icon": "S",
+      "url": null,
+      "suite": "BuddySuite"
+    },
+    {
+      "name": "Email Buddy",
+      "icon": "E",
+      "url": null,
+      "suite": "BuddySuite"
+    },
+    {
+      "name": "Meet Buddy",
+      "icon": "M",
+      "url": null,
+      "suite": "BuddySuite"
+    },
+    {
+      "name": "Calendar Buddy",
+      "icon": "C",
+      "url": null,
+      "suite": "BuddySuite"
+    },
+    {
+      "name": "Gmail Inbox Cleaner",
+      "icon": "G",
+      "url": null
+    },
+    {
+      "name": "SecureVox",
+      "icon": "S",
+      "url": null
+    },
+    {
+      "name": "Meeting Mind",
+      "icon": "M",
+      "url": "https://meetingmind.org",
+      "suite": "BuddySuite"
+    },
+    {
+      "name": "SayIt AI",
+      "icon": "S",
+      "url": null
+    },
+    {
+      "name": "DocuScan AI",
+      "icon": "D",
+      "url": null,
+      "platform": "iOS",
+      "suite": "DocumentSuite"
+    },
+    {
+      "name": "InvoiceFlow Pro",
+      "icon": "I",
+      "url": null,
+      "platform": "iOS",
+      "suite": "DocumentSuite"
+    },
+    {
+      "name": "All-in-one PDF",
+      "icon": "P",
+      "url": null,
+      "platform": "iOS",
+      "suite": "DocumentSuite"
+    },
+    {
+      "name": "CodeReader Pro",
+      "icon": "C",
+      "url": null,
+      "platform": "iOS"
+    },
+    {
+      "name": "ClipFlow Pro",
+      "icon": "C",
+      "url": null,
+      "platform": "macOS"
+    },
+    {
+      "name": "Cleanup: One Tap",
+      "icon": "C",
+      "url": null,
+      "platform": "iOS"
+    },
+    {
+      "name": "CycleWise",
+      "icon": "C",
+      "url": null,
+      "platform": "iOS"
+    },
+    {
+      "name": "ReadAloud AI",
+      "icon": "R",
+      "url": null,
+      "platform": "iOS"
+    },
+    {
+      "name": "ClearVoice Recorder",
+      "icon": "C",
+      "url": null,
+      "platform": "iOS"
+    },
+    {
+      "name": "PDFGenius",
+      "icon": "P",
+      "url": null,
+      "platform": "iOS"
+    },
+    {
+      "name": "VibeBuild",
+      "icon": "V",
+      "url": "https://vibebuild.cc"
+    },
+    {
+      "name": "Serene Sleep Sounds",
+      "icon": "S",
+      "url": null,
+      "platform": "iOS"
+    },
+    {
+      "name": "Pixora",
+      "icon": "P",
+      "url": null,
+      "platform": "iOS"
+    },
+    {
+      "name": "FastingFusion",
+      "icon": "F",
+      "url": null,
+      "platform": "iOS"
+    },
+    {
+      "name": "EasyClaw",
+      "icon": "E",
+      "url": null,
+      "platform": "iOS"
+    },
+    {
+      "name": "Sketchly",
+      "icon": "S",
+      "url": "https://apps.apple.com/app/id6760572052",
+      "platform": "iOS"
+    },
+    {
+      "name": "HabitCraft",
+      "icon": "H",
+      "url": null,
+      "platform": "iOS"
+    },
+    {
+      "name": "FocusBro",
+      "icon": "F",
+      "url": null,
+      "platform": "iOS"
+    },
+    {
+      "name": "LifeCanvas Journal",
+      "icon": "L",
+      "url": null,
+      "platform": "iOS"
+    },
+    {
+      "name": "StillnessHub",
+      "icon": "S",
+      "url": null,
+      "platform": "iOS"
+    },
+    {
+      "name": "SmartSpace",
+      "icon": "S",
+      "url": null,
+      "platform": "iOS"
+    },
+    {
+      "name": "SnapDiet Pro",
+      "icon": "S",
+      "url": null,
+      "platform": "iOS"
+    },
+    {
+      "name": "Arachnid Cards",
+      "icon": "A",
+      "url": null,
+      "platform": "iOS"
+    },
+    {
+      "name": "CardMaster Solitaire",
+      "icon": "C",
+      "url": null,
+      "platform": "iOS"
+    },
+    {
+      "name": "ClaimVault",
+      "icon": "C",
+      "url": null,
+      "platform": "iOS"
+    },
+    {
+      "name": "Cube Crush Odyssey",
+      "icon": "C",
+      "url": null,
+      "platform": "iOS"
+    },
+    {
+      "name": "ClearDebt",
+      "icon": "C",
+      "url": null,
+      "platform": "iOS"
+    },
+    {
+      "name": "DialDeck",
+      "icon": "D",
+      "url": null,
+      "platform": "iOS"
+    },
+    {
+      "name": "Event Timer Pro",
+      "icon": "E",
+      "url": null,
+      "platform": "iOS"
+    },
+    {
+      "name": "Faithful Reflections",
+      "icon": "F",
+      "url": null,
+      "platform": "iOS"
+    },
+    {
+      "name": "FastingPulse",
+      "icon": "F",
+      "url": null,
+      "platform": "iOS"
+    },
+    {
+      "name": "FinanceGuard",
+      "icon": "F",
+      "url": null,
+      "platform": "iOS"
+    },
+    {
+      "name": "FinCalc Pro",
+      "icon": "F",
+      "url": null,
+      "platform": "iOS"
+    },
+    {
+      "name": "FirstPass EMT",
+      "icon": "F",
+      "url": null,
+      "platform": "iOS"
+    },
+    {
+      "name": "FiscalPulse",
+      "icon": "F",
+      "url": null,
+      "platform": "iOS"
+    },
+    {
+      "name": "FitPulse",
+      "icon": "F",
+      "url": null,
+      "platform": "iOS"
+    },
+    {
+      "name": "GlycoFlow",
+      "icon": "G",
+      "url": null,
+      "platform": "iOS"
+    },
+    {
+      "name": "HormoSync",
+      "icon": "H",
+      "url": null,
+      "platform": "iOS"
+    },
+    {
+      "name": "Hydration Hero",
+      "icon": "H",
+      "url": null,
+      "platform": "iOS"
+    },
+    {
+      "name": "LaneReady",
+      "icon": "L",
+      "url": null,
+      "platform": "iOS"
+    },
+    {
+      "name": "Learnly",
+      "icon": "L",
+      "url": null,
+      "platform": "iOS"
+    },
+    {
+      "name": "Ledger",
+      "icon": "L",
+      "url": null,
+      "platform": "iOS"
+    },
+    {
+      "name": "LexiPro",
+      "icon": "L",
+      "url": null,
+      "platform": "iOS"
+    },
+    {
+      "name": "Life Chronicle",
+      "icon": "L",
+      "url": null,
+      "platform": "iOS"
+    },
+    {
+      "name": "Lullaby Haven",
+      "icon": "L",
+      "url": null,
+      "platform": "iOS"
+    },
+    {
+      "name": "MathGraph Pro",
+      "icon": "M",
+      "url": null,
+      "platform": "iOS"
+    },
+    {
+      "name": "Mindful Journal Studio",
+      "icon": "M",
+      "url": null,
+      "platform": "iOS"
+    },
+    {
+      "name": "MoodSpark",
+      "icon": "M",
+      "url": null,
+      "platform": "iOS"
+    },
+    {
+      "name": "PelviFit",
+      "icon": "P",
+      "url": null,
+      "platform": "iOS"
+    },
+    {
+      "name": "PixelPalette Kids",
+      "icon": "P",
+      "url": null,
+      "platform": "iOS"
+    },
+    {
+      "name": "QRAI Pro",
+      "icon": "Q",
+      "url": null,
+      "platform": "iOS"
+    },
+    {
+      "name": "RhythmIQ",
+      "icon": "R",
+      "url": null,
+      "platform": "iOS"
+    },
+    {
+      "name": "Rhythm Maestro",
+      "icon": "R",
+      "url": null,
+      "platform": "iOS"
+    },
+    {
+      "name": "Routine Revolution",
+      "icon": "R",
+      "url": null,
+      "platform": "iOS"
+    },
+    {
+      "name": "ScanMaster Pro",
+      "icon": "S",
+      "url": null,
+      "platform": "iOS"
+    },
+    {
+      "name": "Serenity Scribbles",
+      "icon": "S",
+      "url": null,
+      "platform": "iOS"
+    },
+    {
+      "name": "Simple Meditation Timer",
+      "icon": "S",
+      "url": null,
+      "platform": "iOS"
+    },
+    {
+      "name": "SlumberGuard",
+      "icon": "S",
+      "url": null,
+      "platform": "iOS"
+    },
+    {
+      "name": "SnoreSense",
+      "icon": "S",
+      "url": null,
+      "platform": "iOS"
+    },
+    {
+      "name": "SpellGuard",
+      "icon": "S",
+      "url": null,
+      "platform": "iOS"
+    },
+    {
+      "name": "SwiftFax",
+      "icon": "S",
+      "url": null,
+      "platform": "iOS"
+    },
+    {
+      "name": "TLC Exam Ace",
+      "icon": "T",
+      "url": null,
+      "platform": "iOS"
+    },
+    {
+      "name": "TranquilMind",
+      "icon": "T",
+      "url": null,
+      "platform": "iOS"
+    },
+    {
+      "name": "Resource Rush Tycoon",
+      "icon": "R",
+      "url": null,
+      "platform": "iOS"
+    },
+    {
+      "name": "Lexicon Quests",
+      "icon": "L",
+      "url": null,
+      "platform": "iOS"
+    },
+    {
+      "name": "TaskMaster",
+      "icon": "T",
+      "url": null,
+      "platform": "iOS"
+    },
+    {
+      "name": "TaskCanvas",
+      "icon": "T",
+      "url": null,
+      "platform": "iOS"
+    },
+    {
+      "name": "TuneGenius",
+      "icon": "T",
+      "url": null,
+      "platform": "iOS"
+    },
+    {
+      "name": "VetPlan",
+      "icon": "V",
+      "url": null,
+      "platform": "iOS"
+    },
+    {
+      "name": "VitalTrace",
+      "icon": "V",
+      "url": null,
+      "platform": "iOS"
+    },
+    {
+      "name": "ZenPet",
+      "icon": "Z",
+      "url": null,
+      "platform": "iOS"
+    },
+    {
+      "name": "Sudoku Challenge",
+      "icon": "S",
+      "url": null,
+      "platform": "iOS"
+    },
+    {
+      "name": "SudokuZen",
+      "icon": "S",
+      "url": null,
+      "platform": "iOS"
+    },
+    {
+      "name": "Calorie Craft",
+      "icon": "C",
+      "url": null,
+      "platform": "iOS"
+    },
+    {
+      "name": "ExpenseWhiz",
+      "icon": "E",
+      "url": null,
+      "platform": "iOS"
+    },
+    {
+      "name": "CalcMaster Pro",
+      "icon": "C",
+      "url": null,
+      "platform": "iOS"
+    }
   ],
   "suites": {
     "BuddySuite": {
       "name": "Buddy Suite",
       "description": "Our Buddy Suite products help users seamlessly interact with Google services like Gmail, Google Calendar, and Google Sheets, making everyday tasks simpler and more efficient.",
-      "products": ["Sheet Buddy", "Email Buddy", "Meet Buddy", "Calendar Buddy", "Meeting Mind"]
+      "products": [
+        "Sheet Buddy",
+        "Email Buddy",
+        "Meet Buddy",
+        "Calendar Buddy",
+        "Meeting Mind"
+      ]
     },
     "DocumentSuite": {
       "name": "Document Suite",
       "description": "Our Document Suite provides powerful iOS apps for document scanning, PDF management, and invoice creation with AI-powered features.",
-      "products": ["DocuScan AI", "InvoiceFlow Pro", "All-in-one PDF"]
+      "products": [
+        "DocuScan AI",
+        "InvoiceFlow Pro",
+        "All-in-one PDF"
+      ]
     }
   }
 }

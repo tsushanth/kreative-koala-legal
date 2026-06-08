@@ -37,9 +37,10 @@
       "name": "VibeBuild",
       "icon": "V",
       "url": "https://vibebuild.cc",
-      "tagline": "Build a real Android APK by describing it \u2014 from your phone",
-      "description": "AI mobile app builder. Describe the app you want, get a working Android APK back. No laptop, no IDE \u2014 builds run on a remote worker and land on your device.",
+      "tagline": "Describe an app in plain language, get a deployed web app",
+      "description": "AI app builder with a 5-phase pipeline (describe \u2192 generate \u2192 validate \u2192 iterate \u2192 deploy). Web is the primary surface. Companion iOS and Android apps let you browse generated apps, read full source code, and run sandboxed live previews.",
       "platforms": [
+        "Web",
         "iOS",
         "Android"
       ]

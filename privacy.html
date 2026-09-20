@@ -39,7 +39,7 @@
         <section class="hero hero-small">
             <div class="container">
                 <h1>Privacy Policy</h1>
-                <p class="hero-subtitle">Effective Date: January 14, 2025</p>
+                <p class="hero-subtitle">Effective Date: January 14, 2025 &middot; Last Updated: September 20, 2026</p>
             </div>
         </section>
 
@@ -81,7 +81,7 @@
                         <li><strong>To Comply With Legal Obligations:</strong> Ensuring compliance with applicable laws and regulations.</li>
                     </ul>
                     <div class="highlight-box">
-                        <p><strong>Important:</strong> AI and data processing used in our software is not used to develop, improve, or train generalized AI and/or ML models.</p>
+                        <p><strong>Important:</strong> Except where you choose to opt in as described in Section 11 (VoxKey), AI and data processing used in our software is not used to develop, improve, or train generalized AI and/or ML models.</p>
                     </div>
                 </div>
 
@@ -147,13 +147,17 @@
 
                 <div class="legal-section">
                     <h2>11. App-Specific Disclosures: VoxKey</h2>
-                    <p>VoxKey is a voice-dictation keyboard (Input Method Editor). Because VoxKey requests Microphone and Internet permissions, this section describes exactly how that data is handled, in addition to the general terms above.</p>
+                    <p>VoxKey is a voice-dictation app. You tap a text box in another app, tap the VoxKey bubble, and speak, and VoxKey types what you said. It can also be used as a keyboard. Because VoxKey requests Microphone, Internet and Accessibility access, this section describes exactly how that data is handled, in addition to the general terms above.</p>
                     <ul>
-                        <li><strong>Microphone audio</strong> is used only to transcribe your speech into text as you dictate. On devices that support Android's on-device speech recognizer, audio is transcribed entirely on your device and never leaves it. On older devices or those without on-device recognition support, transcription may be handled by your device manufacturer's or Google's standard Android speech-recognition service, the same system service used by any app that requests dictation &mdash; VoxKey does not operate or receive data from a separate speech-recognition server of its own.</li>
-                        <li><strong>Local AI cleanup</strong> (punctuation and capitalization) runs entirely on-device using a small language model downloaded to your device. Your dictated text is never sent to Kreative Koala LLC's servers, Google, or any third party for this processing.</li>
-                        <li><strong>One-time model download:</strong> to enable local AI cleanup, VoxKey downloads a single AI model file (approximately 584 MB) from our infrastructure to your device. This is a one-directional file download only &mdash; no dictated text, audio, or personal data is uploaded as part of this download.</li>
-                        <li>VoxKey does not include an advertising SDK, does not use your dictated content for advertising or profiling, and does not transmit dictated text to any analytics service.</li>
-                        <li>Uninstalling VoxKey deletes the locally downloaded model and all locally stored data along with the app.</li>
+                        <li><strong>Microphone audio</strong> is used only to transcribe your speech into text as you dictate. On devices that support Android's on-device speech recognizer, audio is transcribed entirely on your device and never leaves it. On other devices, Android may use your device manufacturer's or Google's speech-recognition service, which is governed by that provider's privacy policy. VoxKey never receives your audio.</li>
+                        <li><strong>Accessibility service:</strong> VoxKey's floating bubble uses Android's Accessibility service for two things only: to notice when you tap a text box, so the bubble can appear, and to type your dictated text into that box. To place the text at your cursor, VoxKey briefly reads the text already in that box. It does not store or transmit that text or other screen content, and it never appears in password fields. You turn this permission on yourself and can turn it off at any time in Android's Accessibility settings.</li>
+                        <li><strong>Local AI cleanup</strong> (punctuation and capitalization) is optional and runs entirely on-device using a small language model downloaded to your device. Your dictated text is not sent anywhere for this processing.</li>
+                        <li><strong>One-time model download:</strong> to enable local AI cleanup, VoxKey downloads a single AI model file (approximately 584 MB) from our infrastructure to your device. This is a one-directional file download only; no dictated text, audio, or personal data is uploaded as part of this download.</li>
+                        <li><strong>Optional: Help improve VoxKey.</strong> During setup you choose whether to share your dictated text. This is off unless you choose it, and you can change it at any time in Settings. If you opt in, VoxKey sends us (a) the text the speech recognizer heard and the text after VoxKey's cleanup step, (b) corrections you make to a dictation inside VoxKey's own editor screen, (c) a random install identifier that is not linked to your name, account or device identifiers, and (d) the app version and your selected language. We use this to develop, evaluate and improve VoxKey's speech and text-cleanup models. It can include anything you say. We never receive audio, and nothing is collected from password fields or fields that ask keyboards not to learn. Text produced by your personal snippets, and your dictionary and snippet lists, are never sent.</li>
+                        <li><strong>Storage and retention:</strong> shared text is stored with our infrastructure provider, Cloudflare, Inc., which processes it on our behalf, and is encrypted in transit. It is deleted automatically after 180 days.</li>
+                        <li><strong>Deleting what you shared:</strong> tap "Delete my shared data" in VoxKey's Settings to delete everything linked to your install identifier and stop sharing. Because shared data is linked only to that random identifier, if you uninstall VoxKey or clear its data before deleting, we cannot locate your data; it is still removed automatically after 180 days.</li>
+                        <li>VoxKey does not include an advertising SDK, does not sell your data, and does not use your dictated content for advertising or profiling. Other than the optional sharing described above, VoxKey does not transmit dictated text to us or to any analytics service.</li>
+                        <li>Uninstalling VoxKey deletes the locally downloaded model and all locally stored data (dictation history, dictionary, snippets, settings) along with the app. It does not delete text you previously shared; use "Delete my shared data" first.</li>
                     </ul>
                 </div>
 

@@ -58,7 +58,7 @@ function loadProducts() {
             const privacyList = document.getElementById('product-list-privacy');
             if (privacyList) {
                 const names = data.products.map(p => p.name);
-                privacyList.textContent = names.join(', ') + ', and all Kreative Koala LLC products';
+                privacyList.textContent = names.join(', ') + ', and all KreativeKoalaSolutions LLC products';
             }
 
             // Load product list text on Terms page

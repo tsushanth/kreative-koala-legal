@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>VoxKey for Chrome privacy policy</title>
+<style>
+:root{color-scheme:light dark;--bg:#fff;--fg:#1f2328;--muted:#59636e;--line:#d1d9e0;--accent:#2563eb}
+@media(prefers-color-scheme:dark){:root{--bg:#0d1117;--fg:#e6edf3;--muted:#9198a1;--line:#30363d;--accent:#4c8dff}}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.55 system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+main{max-width:720px;margin:0 auto;padding:24px 16px 64px}
+h1{font-size:26px}h2{font-size:19px;margin-top:32px}a{color:var(--accent)}
+table{border-collapse:collapse;width:100%;font-size:14px}td,th{border:1px solid var(--line);padding:6px 8px;text-align:left;vertical-align:top}
+.muted{color:var(--muted)}.note{border-left:3px solid var(--line);padding-left:12px;color:var(--muted)}
+nav a{margin-right:14px}
+</style>
+</head>
+<body>
+<main>
+<nav><a href="./">VoxKey for Chrome</a><a href="privacy">Privacy policy</a><a href="delete">Delete my data</a></nav>
+<h1>VoxKey for Chrome: Privacy Policy</h1>
+<p class="muted">Last updated 2026-10-13. Operator: KreativeKoalaSolutions LLC. Contact: puzzleverseai@gmail.com. Covers only the VoxKey for Chrome extension (invite beta), not the VoxKey Android keyboard.</p>
+
+<h2>What the extension does</h2>
+<p>You press a keyboard shortcut, speak, press it again, and VoxKey types the cleaned text at your cursor. It records audio from your microphone only between starting and stopping a dictation (Chrome shows its recording indicator) and sends it, live, to our server.</p>
+
+<h2>What leaves your browser, and why</h2>
+<table>
+<tr><th>Data</th><th>Why</th><th>Do we keep it?</th></tr>
+<tr><td>Audio of each dictation</td><td>transcribed to text by our speech vendor</td><td>No. We do not store it. It is streamed to the speech vendor, which processes it under its own terms.</td></tr>
+<tr><td>Recognizer text and cleaned text</td><td>produced by the vendors and returned to you</td><td>Not by us unless you opt in to sharing (below). The cleanup vendors receive the text under their own terms.</td></tr>
+<tr><td>Your invite code and a random install ID</td><td>to start a session and count your free allowance</td><td>We keep per-invite usage counters (seconds used), not content.</td></tr>
+<tr><td>Dictionary words, tone and "exact" settings</td><td>sent with the audio to help spell names correctly</td><td>Not stored by us. Never part of shared samples.</td></tr>
+<tr><td>IP address</td><td>abuse limits</td><td>Only a short-lived keyed hash for the current UTC day is used for rate limiting; our application code stores no raw IP.</td></tr>
+</table>
+<p>We never collect or read the web page you are on, its URL or title, the text already in the box, form field labels or your browsing history. The extension types text at your cursor with browser editing commands and does not read what is in the field.</p>
+
+<h2>Optional sharing of text samples (off by default)</h2>
+<p>If, and only if, you turn on "Help improve VoxKey", then for each dictation after that we collect: the recognizer text and the cleaned text; your correction, if you used the Fix panel; whether you clicked "Looks good" or "Fix"; a random install ID (generated in your browser, not linked to your Google account), the consent version, the extension version, the language tag and the source ("chrome"). Never audio, never page content or URLs.</p>
+<p>Before upload the extension masks email addresses, phone numbers, card and ID-like numbers, credential URLs and street addresses, and skips items that look like spoken passwords or PINs, dictation into password or card fields, items with several masked items, and very short items. Our server masks emails, phone numbers and long digit runs again. Masking is automatic and imperfect: names and other personal details you dictate can remain. Do not dictate things you do not want shared while sharing is on.</p>
+<p><strong>Who can read samples:</strong> only the person who runs VoxKey for KreativeKoalaSolutions LLC. No one else has access. <strong>What we use them for:</strong> improving VoxKey dictation and text cleanup, including training or evaluating our cleanup model. We do not use them for advertising, we do not sell them, and we do not transfer them except to vendors that process data for us. <strong>Retention:</strong> deleted automatically after 180 days. Models or evaluation sets derived from samples may keep traces of the text.</p>
+
+<h2>Vendors that process your data for us</h2>
+<ul>
+<li>Soniox: speech-to-text (receives your audio and dictionary words).</li>
+<li>Fireworks AI and Google (Gemini): text cleanup (receive the recognized text and tone setting; cleanup may fall back from one to the other).</li>
+<li>Cloudflare: hosting of our server and storage.</li>
+</ul>
+<p>They process data under their own terms and privacy policies, which we do not control. We do not claim they delete data immediately.</p>
+
+<h2>Limited Use</h2>
+<p>The use of information received from Google APIs will adhere to the Chrome Web Store User Data Policy, including the Limited Use requirements.</p>
+<p class="muted">In plain terms: we use data only to provide and improve VoxKey dictation; we do not transfer it except to the vendors above or as the law requires; we do not use it for ads, credit decisions or sale; humans read user data only with your consent to sharing (samples as described above), where needed for security, or where the law requires.</p>
+
+<h2>Availability</h2>
+<p>VoxKey for Chrome is not available in the European Union, the European Economic Area or the United Kingdom. You confirm you are not located there when you set it up.</p>
+
+<h2>Your choices and deleting your data</h2>
+<ul>
+<li>Turn sharing off any time in Settings; this stops new samples and clears any waiting to upload.</li>
+<li>Settings, "Delete my shared data" removes everything stored under your install ID.</li>
+<li>Already uninstalled? See <a href="delete">Delete my data</a>. If the install ID is lost we cannot locate your samples; they are deleted by the 180-day rule.</li>
+<li>Uninstalling the extension removes all local data in your browser.</li>
+</ul>
+
+<h2>Children</h2>
+<p>VoxKey for Chrome is not directed to children under 13.</p>
+
+<h2>Changes</h2>
+<p>If our practices change in a way that matters, the extension will ask for your consent again and this page will show the new date.</p>
+
+<h2>Contact</h2>
+<p>KreativeKoalaSolutions LLC, <a href="mailto:puzzleverseai@gmail.com">puzzleverseai@gmail.com</a>.</p>
+</main>
+</body>
+</html>

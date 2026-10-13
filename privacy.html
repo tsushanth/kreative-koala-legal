@@ -135,13 +135,15 @@
 
                 <div class="legal-section">
                     <h2>10. App-Specific Disclosures: InboxIQ</h2>
-                    <p>InboxIQ is an SMS/MMS messaging app that also automatically categorizes your incoming messages (personal, work, promotional, one-time passcode, spam, suspected scam) to help you triage your inbox. Because InboxIQ requests SMS, MMS, and Contacts permissions, this section describes exactly how that data is handled, in addition to the general terms above.</p>
+                    <p>InboxIQ is an SMS/MMS messaging app that also automatically sorts your incoming messages (personal, work, promotional, one-time passcode, spam, suspected scam) to help you triage your inbox. Because InboxIQ requests SMS, MMS, and Contacts permissions, this section describes exactly how that data is handled, in addition to the general terms above. It covers the 0.4.x versions and later versions, which differ only in the optional "Connect to Claude" feature described below.</p>
                     <ul>
-                        <li><strong>Message content, phone numbers, and contact names</strong> are stored only in a local database on your device. This data is never transmitted to KreativeKoalaSolutions LLC's servers or to any third party.</li>
-                        <li><strong>Message categorization runs entirely on-device</strong> using a machine-learning model bundled with the app. No message content is ever sent to a cloud AI service or any external server for classification or any other purpose.</li>
-                        <li><strong>Contacts access</strong> is used solely to display a saved contact's name instead of a raw phone number in your conversation list, and is read locally only.</li>
-                        <li>InboxIQ does not include an advertising SDK and does not use your messages, contacts, or phone numbers for advertising or profiling.</li>
-                        <li>Uninstalling InboxIQ deletes this locally-stored data along with the app.</li>
+                        <li><strong>Message content, phone numbers, and contact names</strong> are read and stored in a local database on your device. KreativeKoalaSolutions LLC does not receive them, sell them, or use them for advertising, profiling, or training AI models.</li>
+                        <li><strong>Sorting runs entirely on your device</strong> using a machine-learning model bundled with the app. Message text is not sent to a cloud AI service or any external server to sort it. An optional larger on-device model can be downloaded through Google Play; that download contains no data from your phone.</li>
+                        <li><strong>Contacts access</strong> is used to show a saved contact's name instead of a raw phone number, and is read locally only.</li>
+                        <li><strong>Microphone</strong> is used only while you hold the voice-memo button, and audio is transcribed on your device.</li>
+                        <li>InboxIQ has no accounts, no advertising SDK, and no analytics.</li>
+                        <li><strong>Optional "Connect to Claude" (earlier 0.4.x versions and any build that includes it; off by default).</strong> Google Play versions of InboxIQ released after 0.4.x do not include this feature and have no internet permission, so they cannot send your messages anywhere. In versions that include it, nothing leaves your phone unless you turn it on and accept an on-screen disclosure. While InboxIQ is open on your screen, it then lets Claude, signed in to your own Claude account, read the message text, sender numbers, contact names, and timestamps that Claude asks for, and send replies you approve. This is relayed through a service run by KreativeKoalaSolutions LLC, which holds only your verified phone number and access tokens and does not store or log message content. Linking requires a verification code delivered by a voice call to your number. Turning the feature off or tapping Disconnect revokes access, and you can also remove the connector in your Claude settings.</li>
+                        <li>Uninstalling InboxIQ deletes its locally stored data along with the app. To delete the relay link (phone number and tokens) for earlier versions, use Disconnect in the app or email support@kreativekoala.llc.</li>
                     </ul>
                 </div>
 

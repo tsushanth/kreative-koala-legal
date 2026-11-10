@@ -110,7 +110,7 @@
                         <li><strong>Objection:</strong> Object to the processing of your data for certain purposes.</li>
                         <li><strong>Withdrawal of Consent:</strong> Withdraw consent where processing is based on consent.</li>
                     </ul>
-                    <p>To exercise these rights, contact us at <a href="mailto:support@kreativekoala.llc">support@kreativekoala.llc</a>.</p>
+                    <p>To exercise these rights, contact us at <a href="mailto:support@kreativekoala.llc">support@kreativekoala.llc</a>. To delete an account or the data we hold for an app, see our <a href="delete-account">account and data deletion page</a>.</p>
                 </div>
 
                 <div class="legal-section">
@@ -220,7 +220,7 @@
                         <li><strong>Why:</strong> only to sort sites and apps into categories, store your daily totals, and show each of your paired devices the other's totals. SurfSense does not include advertising or analytics SDKs, does not sell your data, and does not use it for profiling.</li>
                         <li><strong>Pairing:</strong> you pair devices with a 6-digit code that expires after 15 minutes. Anyone who has that code can pair with your device and then see its category totals, so share it only with people you trust. You can unlink a device at any time in the app or extension, and pairings that have not been used for 30 days are removed automatically.</li>
                         <li><strong>Service providers:</strong> our server runs on Fly.io and stores data with Supabase (hosted on Amazon Web Services in the United States). Data is sent over HTTPS.</li>
-                        <li><strong>Retention and deletion:</strong> daily totals and device records are kept until you ask us to delete them. Uninstalling the app or extension deletes the data stored on your device. To have the data on our server deleted, email us at the address in Section 15 with your device name and the approximate dates you used SurfSense. Because the random device ID is not linked to your identity, we may not always be able to find your records, but we will make reasonable efforts.</li>
+                        <li><strong>Retention and deletion:</strong> daily totals and device records are kept until you ask us to delete them. Uninstalling the app or extension deletes the data stored on your device. To have the data on our server deleted, email us at the address in the Contact Us section at the end of this policy with your device name and the approximate dates you used SurfSense. Because the random device ID is not linked to your identity, we may not always be able to find your records, but we will make reasonable efforts.</li>
                     </ul>
                 </div>
 
@@ -251,7 +251,60 @@
                 </div>
 
                 <div class="legal-section">
-                    <h2>16. Contact Us</h2>
+                    <h2>16. App-Specific Disclosures: CalcMaster Pro</h2>
+                    <p>CalcMaster Pro is a calculator app (standard, scientific, programmer and financial calculators, a unit converter and a currency converter). It has no accounts and no advertising or analytics SDK, and we run no server for it.</p>
+                    <ul>
+                        <li><strong>Calculations and history stay on your device.</strong> Calculation history (expression, result and mode, up to 200 entries) is stored in a local file on your device. You can delete one entry or clear all of it in the Tape screen. KreativeKoalaSolutions LLC does not receive it.</li>
+                        <li><strong>Currency rates.</strong> The only network request the app makes is for the currency converter: when you open the Currency screen or tap refresh, the app downloads the latest exchange rates from ExchangeRate-API (open.er-api.com). The request contains no amounts, history or personal data, but, as with any web request, that provider sees your IP address. The rates are saved on your device so the converter works offline, and conversions are calculated on your device.</li>
+                        <li><strong>Permissions.</strong> CalcMaster Pro requests only the internet permission, for that rate download. It does not request camera, microphone, contacts, location or storage access.</li>
+                        <li><strong>Rating prompt.</strong> CalcMaster Pro may occasionally ask you to rate it using Google Play's in-app review prompt. It decides when using counters stored only on your device; the prompt itself is provided by Google Play under Google's privacy policy.</li>
+                        <li><strong>Uninstalling</strong> CalcMaster Pro deletes its locally stored data (history, settings, saved rates) along with the app.</li>
+                    </ul>
+                </div>
+
+                <div class="legal-section">
+                    <h2>17. App-Specific Disclosures: GymLog</h2>
+                    <p>GymLog is a workout log. It has no accounts, no advertising SDK and no third-party analytics SDK.</p>
+                    <ul>
+                        <li><strong>Your workout data stays on your device.</strong> Workouts, routines, exercises, notes and body measurements are stored on your device. KreativeKoalaSolutions LLC does not receive them. You can export them to a CSV file you choose and import a CSV from another app; where you save an exported file is up to you.</li>
+                        <li><strong>Camera.</strong> The optional Form Check screen uses your camera to show a live preview and to detect body position with an on-device model. Video frames are not saved and are not sent anywhere.</li>
+                        <li><strong>Optional anonymous usage counts (off by default, Settings, Privacy; versions that include the switch).</strong> If you turn it on, GymLog sends a server we operate (a Cloudflare Worker) daily counters only, such as how many workouts you started and finished, sets logged, CSV imports and routines created, plus the app version and your language, tagged with the first 6 characters of a random ID created when you switch it on. It never sends workout content, exercise or routine names, weights, notes, measurements, your name or email, advertising ID or device model. As with any web request, our server receives your IP address; it is not saved with the counts. Turning the switch off deletes the random ID and any unsent counts, and counts already received are deleted automatically after 30 days.</li>
+                        <li><strong>Backups.</strong> If Android backup is turned on for your device, Google may keep a copy of GymLog's data in your Google account under Google's policies.</li>
+                        <li><strong>Other.</strong> Notifications and vibration are used for the rest timer. Tapping "Search on YouTube" for an exercise opens a YouTube search in your browser or the YouTube app, governed by YouTube's terms. GymLog may occasionally ask for a rating with Google Play's in-app review prompt; counters for that stay on your device. Uninstalling GymLog deletes its locally stored data.</li>
+                    </ul>
+                </div>
+
+                <div class="legal-section">
+                    <h2>18. App-Specific Disclosures: Lullaby Haven</h2>
+                    <p>Lullaby Haven is a bedtime story and sleep-sound app. It has no accounts, no advertising SDK and no analytics SDK, and it does not ask for a name, age, photo or voice.</p>
+                    <ul>
+                        <li><strong>Story narration.</strong> The app includes a small library of stories. When you open a story to hear it narrated, the app sends the text of that story and the name of a standard narration voice to a narration server that we run (hosted on Fly.io), which creates the audio with a text-to-speech model we host and sends it back. The audio is saved on your device so the story can be played again without internet. The story text is part of the app; the app does not send anything you type.</li>
+                        <li><strong>Identifier.</strong> The app creates a random install ID the first time it runs and sends it with each narration request. It is not linked to your name, email, advertising ID or Android ID. As with any web request, our server receives your IP address.</li>
+                        <li><strong>On your device.</strong> Sleep sounds, the sleep timer, favorites and settings work entirely on your device.</li>
+                        <li><strong>Permissions.</strong> Internet (to fetch narration), notifications and a foreground service (so playback and the timer continue with the screen off), and wake lock. The app does not request microphone, camera, contacts, location or storage permissions.</li>
+                        <li><strong>Uninstalling</strong> Lullaby Haven deletes the saved narration, favorites and install ID from your phone.</li>
+                    </ul>
+                </div>
+
+                <div class="legal-section">
+                    <h2>19. App-Specific Disclosures: Pixora</h2>
+                    <p>Pixora (Android) backs up the photos and videos on your phone to cloud storage, lets you browse, search and organise them in albums, and helps you find duplicates and free up space. It has accounts, so where this policy refers to registration or account information, that applies to Pixora. Pixora does not analyse your photos with AI, does not do face recognition, and uses no advertising SDK.</p>
+                    <ul>
+                        <li><strong>Photo and video access.</strong> Pixora asks for access to your photos and videos (Android's media permissions) and for notification permission so it can show backup progress. It does not ask for camera, location, contacts or microphone access. Backup is off until you turn it on in the app and uploads over Wi-Fi only by default. Photos and videos you do not back up never leave your phone.</li>
+                        <li><strong>What is uploaded.</strong> For each photo or video you back up: the original file at full quality (including any information inside the file, such as camera details or location, if the file contains it), a small preview image (up to 300 pixels), and these details: file name, type, size, date taken, width and height, a content fingerprint (SHA-1) and, for photos, a visual fingerprint used to find duplicates, and whether it looks like a screenshot. Your albums and your storage use and plan are stored too.</li>
+                        <li><strong>Accounts.</strong> You sign in with Google or with an email address and password. Sign-in is handled by Supabase, which stores your email address. We then use Amazon Cognito to give the app permission to your own storage area. Pixora does not receive your Google password.</li>
+                        <li><strong>Where it is stored.</strong> Your files and their details are stored with Amazon Web Services in the United States (Amazon S3 and DynamoDB, us-east-1) and are encrypted at rest by AWS. This is not end-to-end encryption: AWS holds the keys. Your files are not shared, sold, used for advertising, or used to train AI models.</li>
+                        <li><strong>Archive.</strong> If you choose to archive files, we move them to a cheaper, slower AWS storage class (Glacier). Restoring them can take from minutes to many hours.</li>
+                        <li><strong>Anonymous usage statistics (on by default; turn off in Settings, "Share anonymous usage statistics").</strong> Pixora sends a short list of anonymous step events (for example "signed in", "first backup finished", "paywall shown") to PostHog in the United States. Each event carries only a random per-install ID, the app version, your Android version and "production" or "development". It never carries your photos, file names, email, account or location. As with any web request, PostHog's servers receive your IP address.</li>
+                        <li><strong>Purchases.</strong> Subscriptions are handled by Google Play. Pixora sends your Google Play order ID, the plan and its expiry date to our server to set your storage quota. Your payment details stay with Google Play. Pixora also includes the Adapty subscription SDK, which may receive technical and purchase information from your device under Adapty's own privacy policy.</li>
+                        <li><strong>Service providers.</strong> Amazon Web Services (storage and sign-in credentials), Supabase (sign-in), PostHog (anonymous statistics), Adapty (subscription SDK), Google (Google sign-in and Google Play) and Fly.io (hosts the Pixora website). A background health check on our servers sends only anonymous system counts, with no photos and no user data, to Anthropic to classify storage-system errors.</li>
+                        <li><strong>Retention.</strong> Your photos, videos, details and albums are kept until you delete them or delete your account. Server logs may contain your internal account ID.</li>
+                        <li><strong>Deleting data.</strong> Delete single photos or albums in the app, which also removes them from our storage. To delete everything, go to Settings, Delete Account, type DELETE and confirm: this deletes your photos, videos, previews (including archived copies), albums and account record, and asks Supabase to remove your sign-in record (if you can still sign in afterwards, email us and we will remove it). Step-by-step details are on the <a href="delete-account">account deletion page</a> and at <a href="https://pixora-web.fly.dev/delete-account">pixora-web.fly.dev/delete-account</a>. If you can no longer use the app, email puzzleverseai@gmail.com from your account's address. Photos that exist only on your phone are not touched. Cancel Google Play subscriptions in Google Play; Google keeps its own purchase records.</li>
+                    </ul>
+                </div>
+
+                <div class="legal-section">
+                    <h2>20. Contact Us</h2>
                     <p>If you have any questions or concerns about this Privacy Policy, please contact us at:</p>
                     <p class="contact-email"><a href="mailto:support@kreativekoala.llc">support@kreativekoala.llc</a></p>
                 </div>
@@ -274,6 +327,7 @@
                     <a href="index.html">About Us</a>
                     <a href="privacy.html">Privacy Policy</a>
                     <a href="terms.html">Terms of Service</a>
+                    <a href="delete-account.html">Delete Account</a>
                 </div>
                 <p class="copyright">&copy; 2025 KreativeKoalaSolutions LLC. All rights reserved.</p>
             </div>

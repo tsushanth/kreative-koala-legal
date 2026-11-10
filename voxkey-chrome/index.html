@@ -24,7 +24,7 @@ nav a{margin-right:14px}
 
 <h2>Before you install: what happens to your voice</h2>
 <ul>
-<li>While you dictate, your audio is sent live to our server, which passes it to speech-recognition and text-cleanup services we use (Soniox for speech-to-text; Fireworks AI and Google Gemini for text cleanup; Cloudflare hosts our server). We do not store the audio. Those services process it under their own terms.</li>
+<li>While you dictate, your audio is sent live to our server, which passes it to speech-recognition and text-cleanup services we use (Soniox for speech-to-text, with ElevenLabs as a backup; Cloudflare Workers AI, Fireworks AI and Google Gemini for text cleanup; Cloudflare hosts our server). We do not store the audio. Those services process it under their own terms.</li>
 <li>We do not read the page you are on, its URL, or the text already in the box. VoxKey only types the result at your cursor when you ask it to.</li>
 <li>The microphone is on only between starting and stopping a dictation. Chrome shows its recording indicator while it is on.</li>
 <li>Optional and off by default: you can choose to share the text of your dictations and your corrections to help improve VoxKey. Only the person who runs VoxKey reads samples. They are deleted after 180 days. Never audio, never page content.</li>

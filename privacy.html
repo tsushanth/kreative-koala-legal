@@ -39,7 +39,7 @@
         <section class="hero hero-small">
             <div class="container">
                 <h1>Privacy Policy</h1>
-                <p class="hero-subtitle">Effective Date: January 14, 2025 &middot; Last Updated: November 10, 2026</p>
+                <p class="hero-subtitle">Effective Date: January 14, 2025 &middot; Last Updated: November 11, 2026</p>
             </div>
         </section>
 
@@ -334,12 +334,12 @@
 
                 <div class="legal-section">
                     <h2>21. App-Specific Disclosures: RiddleRush</h2>
-                    <p>RiddleRush (Android) is an AI puzzle game. It has accounts: you sign in with Google through Google Firebase Authentication, so where this policy refers to registration or account information, that applies to RiddleRush. It has no advertising SDK and no purchases.</p>
+                    <p>RiddleRush (Android) is an AI puzzle game. It has accounts: you sign in with Google through Google Firebase Authentication, so where this policy refers to registration or account information, that applies to RiddleRush. It has no purchases.</p>
                     <ul>
                         <li><strong>What the app sends to our puzzle server (puzzleverseai.com):</strong> to get a puzzle, your user ID and the email address of your Google account (in the web address of the request); to check an answer, the puzzle question, the correct answer and your answer; to record a score, your email address (used as your leaderboard ID), the puzzle and your score and time; and to create a puzzle, the topic you type, the format, the number of puzzles and your user ID.</li>
                         <li><strong>AI.</strong> A topic you type is sent to an AI model to write the puzzles. Our server is set up to use models from Anthropic, Google or DeepSeek; we have not verified which one handles a given request. Do not type personal information as a topic.</li>
-                        <li><strong>Google services.</strong> Firebase Authentication handles sign-in. The app also includes Google Firebase Analytics and Crashlytics, which collect app usage, device information (such as model and Android version) and crash reports, under Google's terms.</li>
-                        <li><strong>Leaderboards.</strong> We have not verified what other players can see about you on a leaderboard.</li>
+                        <li><strong>Google services.</strong> Firebase Authentication handles sign-in. The app also includes Google Firebase Analytics and Crashlytics, which collect app usage, device information (such as model and Android version) and crash reports, under Google's terms. The Firebase Analytics SDK also collects the Android Advertising ID. You can reset or delete your advertising identifier in Android Settings, under Privacy, Ads.</li>
+                        <li><strong>Leaderboards (known issue).</strong> Leaderboard entries show your Google account email address and your score to other players. The leaderboard can also be read by anyone without signing in. This is a known defect, and we are working to fix it in a later release. Until it is fixed, do not use RiddleRush if you do not want your email address shown to others.</li>
                         <li><strong>Retention and deletion.</strong> Delete Account in the app's overflow menu deletes your sign-in account with Firebase and removes RiddleRush's access to your Google account. It does not delete the puzzle progress, scores or custom puzzles held on our server, and it can fail if you signed in a long time ago (sign out and back in, then try again). To have your server records deleted, email us at the address in the Contact Us section or see the <a href="delete-account">account and data deletion page</a>. We have not verified how long the server keeps those records.</li>
                         <li><strong>Permissions and backup.</strong> The app uses the internet and does not request camera, microphone, contacts or location access. It allows Android's automatic backup.</li>
                     </ul>
@@ -369,7 +369,21 @@
                 </div>
 
                 <div class="legal-section">
-                    <h2>23. Contact Us</h2>
+                    <h2>23. App-Specific Disclosures: Elevate Careers</h2>
+                    <p>Elevate Careers (Android, package com.kreativekoala.elevatecareers) is a job-search app with an in-app application autofill and an AI resume builder. Accounts are optional: the app has a guest mode, and you can use it without signing in. This section describes how data is handled, in addition to the general terms above.</p>
+                    <ul>
+                        <li><strong>Account (optional).</strong> If you create an account, you can sign in with an email address and password, with Google, or with LinkedIn, through Google Firebase Authentication. For the account we collect your name, your email address and a user ID. Where this policy refers to registration or account information, that applies to Elevate Careers if you create an account.</li>
+                        <li><strong>Job search.</strong> The job-search keywords and location filters you enter are sent to our job-search API to find listings.</li>
+                        <li><strong>Failure reports (always on, no opt-out).</strong> The app sends failure reports to a service we run on Cloudflare Workers. A report contains the crash stack trace, the name of the flow in which the failure happened, the app version, the Android version and the device model. It contains no user identifier. There is no setting to turn these reports off. As with any web request, our server receives your IP address.</li>
+                        <li><strong>Application autofill.</strong> When you open an employer's web page and use the in-app autofill, the app fills your name, email address, phone number, city, employer and summary into that page. Those details go to the employer's website as if you had typed them, and the employer's own privacy policy applies to them.</li>
+                        <li><strong>Voice input.</strong> Voice input uses Android's system speech recognizer. The app receives only the resulting text, not the audio. Android's speech recognizer is provided by your device and handled under its own terms.</li>
+                        <li><strong>AI resume builder.</strong> The AI resume builder sends the text of your chat messages and your user ID to our backend, which uses Anthropic to generate the reply. This feature is currently not functioning, and we may re-enable it. If it is re-enabled, what you type into it would be sent as described here. Do not type personal information you do not want an AI provider to process.</li>
+                        <li><strong>Retention and deletion.</strong> Delete Account in the app currently removes only your Firebase sign-in. It does not delete data held on our servers. To have the data we hold for you deleted, email us at the address in the Contact Us section or see the <a href="delete-account">account and data deletion page</a>. We have not verified how long the server keeps those records.</li>
+                    </ul>
+                </div>
+
+                <div class="legal-section">
+                    <h2>24. Contact Us</h2>
                     <p>If you have any questions or concerns about this Privacy Policy, please contact us at:</p>
                     <p class="contact-email"><a href="mailto:support@kreativekoala.llc">support@kreativekoala.llc</a></p>
                 </div>

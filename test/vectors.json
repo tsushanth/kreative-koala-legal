@@ -1,0 +1,62 @@
+{
+  "secret": "test-secret-not-for-production-0123456789",
+  "base": "https://kreativekoala.llc/unsubscribe",
+  "vectors": [
+    {
+      "list": "mm",
+      "email": "alice@example.com",
+      "normalized": "alice@example.com",
+      "e": "YWxpY2VAZXhhbXBsZS5jb20",
+      "s": "ZuRVQ7fk3oG1qWyXxbQiBaG5oncTfwGHEsTWt6_NeUY",
+      "url": "https://kreativekoala.llc/unsubscribe?e=YWxpY2VAZXhhbXBsZS5jb20&l=mm&s=ZuRVQ7fk3oG1qWyXxbQiBaG5oncTfwGHEsTWt6_NeUY"
+    },
+    {
+      "list": "sa",
+      "email": "bob.smith+news@example.com",
+      "normalized": "bob.smith+news@example.com",
+      "e": "Ym9iLnNtaXRoK25ld3NAZXhhbXBsZS5jb20",
+      "s": "k11_u2oNUl04Na3QugnYxiNIy5H8WYfHONMZhEg8dw0",
+      "url": "https://kreativekoala.llc/unsubscribe?e=Ym9iLnNtaXRoK25ld3NAZXhhbXBsZS5jb20&l=sa&s=k11_u2oNUl04Na3QugnYxiNIy5H8WYfHONMZhEg8dw0"
+    },
+    {
+      "list": "rv",
+      "email": "carol_d-e@sub.example.org",
+      "normalized": "carol_d-e@sub.example.org",
+      "e": "Y2Fyb2xfZC1lQHN1Yi5leGFtcGxlLm9yZw",
+      "s": "urGdSUZTd27TGiahOEpSgSLo1mfnh_DV7aR3q-B8RrQ",
+      "url": "https://kreativekoala.llc/unsubscribe?e=Y2Fyb2xfZC1lQHN1Yi5leGFtcGxlLm9yZw&l=rv&s=urGdSUZTd27TGiahOEpSgSLo1mfnh_DV7aR3q-B8RrQ"
+    },
+    {
+      "list": "mm",
+      "email": "Dana.Lowercase@EXAMPLE.com",
+      "normalized": "dana.lowercase@example.com",
+      "e": "ZGFuYS5sb3dlcmNhc2VAZXhhbXBsZS5jb20",
+      "s": "vhG0wA36C9doXIgoorLc63zV_pi0Tmc0EiCIBpB5VDQ",
+      "url": "https://kreativekoala.llc/unsubscribe?e=ZGFuYS5sb3dlcmNhc2VAZXhhbXBsZS5jb20&l=mm&s=vhG0wA36C9doXIgoorLc63zV_pi0Tmc0EiCIBpB5VDQ"
+    },
+    {
+      "list": "sa",
+      "email": "zoe@exa\u00e9mple.com",
+      "normalized": "zoe@exa\u00e9mple.com",
+      "e": "em9lQGV4YcOpbXBsZS5jb20",
+      "s": "OYIb5XRrTmVoqAsxm8DnF1X1Wt_z_QS1GQ5y1YPuPE0",
+      "url": "https://kreativekoala.llc/unsubscribe?e=em9lQGV4YcOpbXBsZS5jb20&l=sa&s=OYIb5XRrTmVoqAsxm8DnF1X1Wt_z_QS1GQ5y1YPuPE0"
+    },
+    {
+      "list": "mm",
+      "email": "user0@example.com",
+      "normalized": "user0@example.com",
+      "e": "dXNlcjBAZXhhbXBsZS5jb20",
+      "s": "1oKOV1Um_sh95Fz8KR_y51P6k2A95LhmFRdhXmp8U6Q",
+      "url": "https://kreativekoala.llc/unsubscribe?e=dXNlcjBAZXhhbXBsZS5jb20&l=mm&s=1oKOV1Um_sh95Fz8KR_y51P6k2A95LhmFRdhXmp8U6Q"
+    },
+    {
+      "list": "mm",
+      "email": "user3@example.com",
+      "normalized": "user3@example.com",
+      "e": "dXNlcjNAZXhhbXBsZS5jb20",
+      "s": "BvcACsKc0AIgB-wKcTxEVqCJU1GhHzR_6n4Kn8AM2Ho",
+      "url": "https://kreativekoala.llc/unsubscribe?e=dXNlcjNAZXhhbXBsZS5jb20&l=mm&s=BvcACsKc0AIgB-wKcTxEVqCJU1GhHzR_6n4Kn8AM2Ho"
+    }
+  ]
+}

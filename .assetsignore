@@ -7,3 +7,12 @@ wrangler.toml
 .wrangler/**
 worker.js
 .claude-config
+src
+src/**
+test
+test/**
+docs
+docs/**
+package.json
+node_modules
+node_modules/**

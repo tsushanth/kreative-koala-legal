@@ -43,6 +43,7 @@ export const LISTS = {
   mm: { app: 'MeetingMind', backend: 'summaryai' },
   sa: { app: 'ScribeAI', backend: 'summaryai' },
   rv: { app: 'RiddleVerse', backend: 'summaryai' },
+  vb: { app: 'VibeBuild', backend: 'summaryai' },
 };
 
 // ---- Encoding and signing ---------------------------------------------------------------------------------------

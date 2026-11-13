@@ -1,4 +1,7 @@
-// Thin wrapper around the static assets: HTTP -> HTTPS, security headers, /account-deletion alias.
+// Thin wrapper around the static assets: HTTP -> HTTPS, security headers, /account-deletion alias,
+// and the signed one-click /unsubscribe route (src/unsubscribe.mjs; docs/unsubscribe/README.md).
+import { handleUnsubscribe, isUnsubscribePath } from './src/unsubscribe.mjs';
+
 const CSP = [
   "default-src 'self'",
   "script-src 'self' https://static.cloudflareinsights.com",
@@ -22,6 +25,9 @@ export default {
     if (url.pathname === '/account-deletion' || url.pathname === '/account-deletion/') {
       url.pathname = '/delete-account';
       return Response.redirect(url.toString(), 301);
+    }
+    if (isUnsubscribePath(url.pathname)) {
+      return handleUnsubscribe(request, env);
     }
     const res = await env.ASSETS.fetch(request);
     const headers = new Headers(res.headers);

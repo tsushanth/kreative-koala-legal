@@ -57,6 +57,14 @@
       "e": "dXNlcjNAZXhhbXBsZS5jb20",
       "s": "BvcACsKc0AIgB-wKcTxEVqCJU1GhHzR_6n4Kn8AM2Ho",
       "url": "https://kreativekoala.llc/unsubscribe?e=dXNlcjNAZXhhbXBsZS5jb20&l=mm&s=BvcACsKc0AIgB-wKcTxEVqCJU1GhHzR_6n4Kn8AM2Ho"
+    },
+    {
+      "list": "vb",
+      "email": "carol@example.com",
+      "normalized": "carol@example.com",
+      "e": "Y2Fyb2xAZXhhbXBsZS5jb20",
+      "s": "kBVdE-WdFBVtUoIDTuhefaaQhro3U9JKNFUzD4GmlWU",
+      "url": "https://kreativekoala.llc/unsubscribe?e=Y2Fyb2xAZXhhbXBsZS5jb20&l=vb&s=kBVdE-WdFBVtUoIDTuhefaaQhro3U9JKNFUzD4GmlWU"
     }
   ]
 }

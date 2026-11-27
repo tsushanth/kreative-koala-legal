@@ -171,8 +171,8 @@ test('unicode address vector round-trips', async () => {
   assert.equal(JSON.parse(f.calls[0].init.body)[0].email, v.normalized);
 });
 
-test('all four list ids work and name their app', async () => {
-  for (const [l, app] of [['mm', 'MeetingMind'], ['sa', 'ScribeAI'], ['rv', 'RiddleVerse'], ['vb', 'VibeBuild']]) {
+test('every list id works and names its app', async () => {
+  for (const [l, app] of [['mm', 'MeetingMind'], ['sa', 'ScribeAI'], ['rv', 'RiddleVerse'], ['vb', 'VibeBuild'], ['ax', 'Audexa'], ['tm', 'TidyMail'], ['sy', 'SimplyApply']]) {
     const e = 'list.check@example.com';
     const s = await sign(SECRET, l, e);
     const res = await run(new Request(link(enc(e), l, s)));

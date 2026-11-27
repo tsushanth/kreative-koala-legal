@@ -44,6 +44,9 @@ export const LISTS = {
   sa: { app: 'ScribeAI', backend: 'summaryai' },
   rv: { app: 'RiddleVerse', backend: 'summaryai' },
   vb: { app: 'VibeBuild', backend: 'summaryai' },
+  ax: { app: 'Audexa', backend: 'summaryai' },
+  tm: { app: 'TidyMail', backend: 'summaryai' },
+  sy: { app: 'SimplyApply', backend: 'summaryai' },
 };
 
 // ---- Encoding and signing ---------------------------------------------------------------------------------------
